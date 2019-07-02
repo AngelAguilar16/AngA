@@ -1,0 +1,3 @@
+[submodule "AngA/vendor/spdlog"]
+	path = AngA/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
