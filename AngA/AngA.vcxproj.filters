@@ -1,36 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="AngA">
+      <UniqueIdentifier>{9C95827C-88CC-830D-31B9-69101DCFFF0E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="AngA\Events">
+      <UniqueIdentifier>{005ABC2A-6C0F-3520-F503-2FF761B82B24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\AngA.h" />
     <ClInclude Include="src\AngA\Application.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>AngA</Filter>
     </ClInclude>
     <ClInclude Include="src\AngA\Core.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="src\AngA.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>AngA</Filter>
     </ClInclude>
     <ClInclude Include="src\AngA\EntryPoint.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>AngA</Filter>
     </ClInclude>
+    <ClInclude Include="src\AngA\Events\ApplicationEvent.h">
+      <Filter>AngA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AngA\Events\Event.h">
+      <Filter>AngA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AngA\Events\KeyEvent.h">
+      <Filter>AngA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AngA\Events\MouseEvent.h">
+      <Filter>AngA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AngA\Log.h">
+      <Filter>AngA</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aapch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\AngA\Application.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>AngA</Filter>
     </ClCompile>
+    <ClCompile Include="src\AngA\Log.cpp">
+      <Filter>AngA</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aapch.cpp" />
   </ItemGroup>
 </Project>
